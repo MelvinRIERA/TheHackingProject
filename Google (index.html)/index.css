@@ -1,0 +1,168 @@
+body {
+  height: 100vh;
+  font-size: small;
+  font-family: arial,sans-serif;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+a {
+  color: #5f6368;
+  text-decoration: none;
+}
+
+a.coronavirus { 
+  color: #1a0dab;
+}
+
+a.coronavirus:visited {
+  color: #609;
+}
+
+a.swap {
+  color: #1a0dab;
+}
+
+a.swap:visited {
+  color: #609;
+}
+
+a.topright-icons1 {
+  margin-top: 6px;
+  color: rgba(0,0,0,0.87);
+}
+
+a.topright-icons2 {
+  margin-top: 6px;
+  color: rgba(0,0,0,0.87);
+}
+
+img.squares {
+  margin-top: 6px;
+  height: 15px;
+}
+
+div.topright-icons > * {
+  margin-right: 27px
+}
+
+div.topright-icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+div.middle {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-top: 89px;
+}
+
+img.glogo {
+  width: 272px;
+  height: 92px;
+  padding-top: 109px;
+  align-self: center;
+}
+
+input.research {
+  background-size: 2em;
+  background-position: left;
+  background-repeat: no-repeat;
+  font-size: 16px;
+  align-self: center;
+  border-radius: 23px;
+  height: 38px;
+  width: 450px;
+  text-indent: 3em;
+}
+
+div.research {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+input.research2 {
+  border: 1px solid #f2f2f2;
+  margin: 11px 4px;
+  color: #5F6368;
+  line-height: 10px;
+  height: 40px;
+  width: 150px;
+  border-radius: 3px;
+}
+
+input.lucky { 
+  border: 1px solid #f2f2f2;
+  margin: 11px 4px;
+  color: #5F6368;
+  line-height: 10px;
+  height: 40px;
+  width: 150px;
+  border-radius: 3px;
+}
+
+div.inputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 20px;
+}
+  
+img.five { 
+  height: 45px;
+  margin-right: 5px;
+}
+
+a.coronavirus {  
+  line-height: 45px;
+}
+
+div.coronavirus {
+  padding-top: 15px;
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
+
+div.swap { 
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+p.fr {
+  padding-left: 27px;   
+}
+
+div.bottom {
+  color: #5f6368;
+  background-color: #f2f2f2;
+  width: 100%;
+  border-top: 1px solid #e4e4e4;
+  position: fixed;
+  bottom: 0;
+}
+
+div.sub-bottom {
+  border-top: 1px solid #e4e4e4;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+nav.nav1 > * {
+  padding-left: 27px;
+}
+
+nav.nav2 {
+  margin-right: 27px;
+}
+
+nav.nav2 > * {
+  padding-left: 27px;
+}
